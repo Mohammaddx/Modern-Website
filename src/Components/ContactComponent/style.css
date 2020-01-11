@@ -1,0 +1,56 @@
+.contact {
+  background-image: linear-gradient(
+    45deg,
+    rgb(27, 28, 29) 50%,
+    rgb(245, 0, 87) 100%
+  );
+  border-radius: 7px;
+  box-shadow: 1px 1px 40px 1px #000, inset 0 0 30px 1px #000;
+  margin: auto;
+  width: 500px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  bottom: 30px;
+}
+
+.contact .container {
+  padding: 10px;
+}
+
+.contact .container .img-div {
+  width: 220px;
+  height: 220px;
+  margin: auto;
+}
+
+.contact .container .img-div img {
+  width: 100%;
+}
+
+.contact .container .info-contact {
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  margin: auto;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.contact .container .info-contact .connection {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 510px) {
+  .contact {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .contact {
+    width: 300px;
+  }
+}

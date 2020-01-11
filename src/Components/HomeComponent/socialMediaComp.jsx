@@ -15,7 +15,7 @@ const SocialMediaComponenet = () => {
         href="https://www.facebook.com/profile.php?id=100013056635669"
         target="_blank"
       >
-        <FacebookIcon fontSize="large" style={{ color: "#fff" }} />
+        <FacebookIcon fontSize="middle" style={{ color: "#fff" }} />
       </a>
 
       <a
@@ -23,7 +23,7 @@ const SocialMediaComponenet = () => {
         href="https://twitter.com/MoahmmadAhamd"
         target="_blank"
       >
-        <TwitterIcon fontSize="large" style={{ color: "#fff" }} />
+        <TwitterIcon fontSize="middle" style={{ color: "#fff" }} />
       </a>
 
       <a
@@ -31,14 +31,14 @@ const SocialMediaComponenet = () => {
         href="https://github.com/Mohammaddx"
         target="_blank"
       >
-        <GitHubIcon fontSize="large" style={{ color: "#fff" }} />
+        <GitHubIcon fontSize="middle" style={{ color: "#fff" }} />
       </a>
       <a
         className={classes.item}
         href="https://www.linkedin.com/in/mohammad-ahmad-4b6a30175/"
         target="_blank"
       >
-        <LinkedInIcon fontSize="large" style={{ color: "#fff" }} />
+        <LinkedInIcon fontSize="middle" style={{ color: "#fff" }} />
       </a>
 
       <a
@@ -46,7 +46,7 @@ const SocialMediaComponenet = () => {
         href="https://www.instagram.com/mohammadahmad2871/"
         target="_blank"
       >
-        <InstagramIcon fontSize="large" style={{ color: "#fff" }} />
+        <InstagramIcon fontSize="middle" style={{ color: "#fff" }} />
       </a>
     </div>
   );
