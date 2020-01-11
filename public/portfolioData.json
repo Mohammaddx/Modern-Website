@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "./portfolioImages/image1.png",
+      "title": "PS-Estates",
+      "link": "https://ps-estates.netlify.com/"
+    },
+    {
+      "id": 2,
+      "image": "./portfolioImages/image2.png",
+      "title": "Midmars Academy",
+      "link": "https://midmars-academy.netlify.com/"
+    },
+    {
+      "id": 3,
+      "image": "./portfolioImages/image3.png",
+      "title": "ACC Website",
+      "link": "https://accwebsite.netlify.com/"
+    },
+    {
+      "id": 4,
+      "image": "./portfolioImages/image4.png",
+      "title": "Check Weather",
+      "link": "https://know-the-weather.netlify.com/"
+    },
+    {
+      "id": 5,
+      "image": "./portfolioImages/image5.png",
+      "title": "Walaa Shaaban Developer",
+      "link": "https://walaa-shaaban.netlify.com/"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+.portfolio-div {
+  padding: 7px;
+  border-radius: 10px;
+  background-color: rgb(27, 28, 29);
+  box-shadow: 1px 0 50px 1px #000;
+  transition-duration: 0.5s;
+}
+
+.portfolio-div .container {
+  text-align: center;
+  padding: 5px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.portfolio-div .container img {
+  width: 100%;
+}
+
+.portfolio-div .container h2 {
+  color: #fff;
+}
+
+.portfolio-div .container a {
+  text-decoration: none;
+  color: #00a1ff;
+}
+
+.portfolio-div:hover {
+  background-color: rgb(245, 0, 87);
+}
+
+.portfolio-div:hover a {
+  color: #fff;
+  border-radius: 20px;
+  background-color: #00a1ff;
+  padding: 5px 10px;
+  border: 1px solid #00a1ff;
+  box-shadow: 1px 0px 10px 1px #00a1ff;
+}
