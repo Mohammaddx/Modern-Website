@@ -1,0 +1,16 @@
+.resume-div {
+  padding: 5px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.resume-div h3,
+.resume-div p {
+  color: #fff;
+}
+
+.resume-div span {
+  color: #777;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}

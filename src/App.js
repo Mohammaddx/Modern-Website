@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Home } from "./Pages/Home";
 import { About } from "./Pages/About";
-import { Resume } from "./Pages/Resume";
+import {Resume}  from "./Pages/Resume";
 import { Portfolio } from "./Pages/portfolio";
 import { Contact } from "./Pages/contact";
 import Snow from "react-snow-effect";
