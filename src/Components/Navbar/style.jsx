@@ -8,8 +8,8 @@ export const useStyle = makeStyles({
   },
   navLeftSide: {
     display: "flex",
-    justifyContent: "space-around",
-    justifyItems: "center",
+    justifyContent: "center",
+    alignItems: "center",
     padding: "10px"
   },
   navImg: {
@@ -21,8 +21,6 @@ export const useStyle = makeStyles({
   navHeading: {
     color: "#fff",
     marginLeft: "5px",
-    position: "relative",
-    top: "7px",
     fontFamily: "Montserrat, sans-serif"
   },
   menuButton: {
