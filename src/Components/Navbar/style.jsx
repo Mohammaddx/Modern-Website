@@ -32,6 +32,7 @@ export const useStyle = makeStyles({
     width: 250
   },
   link: {
-    color: "#000"
+    color: "#000",
+    textDecoration: "none"
   }
 });
