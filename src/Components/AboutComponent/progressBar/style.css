@@ -8,10 +8,13 @@
 
 svg {
   position: relative;
+  width: 110px;
+  height: 110px;
   z-index: 1000;
 }
 
 svg circle {
+  position: relative;
   width: 100%;
   height: 100%;
   fill: none;
