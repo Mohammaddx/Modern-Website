@@ -1,0 +1,33 @@
+.root {
+  padding: 10px;
+}
+
+.image-about {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-top: 5px solid #fff;
+  border-left: 1px solid #fff;
+  box-shadow: 1px 2px 50px 3px#000;
+}
+
+.span-rolling {
+  border-radius: 50%;
+  border-top: 5px solid purple;
+  border-left: 1px solid darkorchid;
+  animation: rolling 0.8s infinite;
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+@keyframes rolling {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
