@@ -17,7 +17,6 @@ export const useStyle = makeStyles({
   },
   container: {
     textAlign: "center",
-    padding: "10px",
     color: "#fff",
     fontFamily: ["'Modak', cursive"].join(",")
   },

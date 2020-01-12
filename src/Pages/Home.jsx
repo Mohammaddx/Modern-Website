@@ -7,9 +7,9 @@ export const Home = () => {
   const classes = useStyle();
   return (
     <div>
-      <Grid container className={classes.root}>
-        <div style={{ padding: "50px" }}>
-          <Grid item xs={12} className={classes.leftGrid}>
+      <Grid container>
+        <div className={classes.root}>
+          <Grid item xs={12}>
             <HomeImagesComponent />
           </Grid>
           <Grid item xs={12}>
