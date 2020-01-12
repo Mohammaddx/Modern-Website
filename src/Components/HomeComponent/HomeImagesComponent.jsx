@@ -4,6 +4,8 @@ import hoverEffect from "hover-effect";
 import Img1 from "../../images/image1.png";
 import Img2 from "../../images/image2.png";
 import Imgdis from "../../images/heightMap.png";
+import ReactWOW from "react-wow";
+import "../../animate.css";
 
 const HomeImagesComponent = () => {
   const classes = useStyle();
@@ -24,7 +26,11 @@ const HomeImagesComponent = () => {
     effect();
   }, []);
 
-  return <div id="image-div" className={classes.imgDiv}></div>;
+  return (
+    <ReactWOW animation="zoomIn">
+      <div id="image-div" className={classes.imgDiv}></div>
+    </ReactWOW>
+  );
 };
 
 export default HomeImagesComponent;

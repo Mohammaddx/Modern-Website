@@ -5,27 +5,37 @@ import PhoneInTalkIcon from "@material-ui/icons/PhoneInTalk";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import SocialMediaComponenet from ".././HomeComponent/socialMediaComp";
 import "./style.css";
+import ReactWOW from "react-wow";
+import "../../animate.css";
 
 const ContactComponent = () => {
   return (
     <div className="contact">
       <div className="container">
-        <div className="img-div">
-          <img src={Image} />
-        </div>
+        <ReactWOW animation="bounceIn">
+          <div className="img-div">
+            <img src={Image} />
+          </div>
+        </ReactWOW>
         <div className="info-contact">
-          <div className="connection">
-            <EmailIcon /> <span> : ma3571318z@gmail.com</span>
-          </div>
+          <ReactWOW animation="fadeIn">
+            <div className="connection">
+              <EmailIcon /> <span> : ma3571318z@gmail.com</span>
+            </div>
+          </ReactWOW>
 
-          <div className="connection">
-            <PhoneInTalkIcon /> <span> : +(970) 592 839 122</span>
-          </div>
+          <ReactWOW animation="fadeIn">
+            <div className="connection">
+              <PhoneInTalkIcon /> <span> : +(970) 592 839 122</span>
+            </div>
+          </ReactWOW>
 
-          <div className="connection">
-            <LocationOnIcon />
-            <span> : Jenin, Palestine</span>
-          </div>
+          <ReactWOW animation="fadeIn">
+            <div className="connection">
+              <LocationOnIcon />
+              <span> : Jenin, Palestine</span>
+            </div>
+          </ReactWOW>
         </div>
         <SocialMediaComponenet />
       </div>

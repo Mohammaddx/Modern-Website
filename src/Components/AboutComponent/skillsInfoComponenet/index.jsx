@@ -3,7 +3,8 @@ import Grid from "@material-ui/core/Grid";
 import WorkIcon from "@material-ui/icons/Work";
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
+import ReactWOW from "react-wow";
+import "../../../animate.css";
 import "./style.css";
 
 const SkillsInfoComponent = () => {
@@ -11,66 +12,74 @@ const SkillsInfoComponent = () => {
     <div>
       <Grid container>
         <Grid item xs={6} lg={3}>
-          <div className="containerSkillsInfo">
-            <div className="icon-div">
-              <WorkIcon color="secondary" className="icon" fontSize="large" />
-            </div>
-            <div className="info">
-              <div className="title">
-                <h3>4 years Job</h3>
+          <ReactWOW animation="flipInY">
+            <div className="containerSkillsInfo">
+              <div className="icon-div">
+                <WorkIcon color="secondary" className="icon" fontSize="large" />
               </div>
-              <div className="status">
-                <span>Experience</span>
+              <div className="info">
+                <div className="title">
+                  <h3>4 years Job</h3>
+                </div>
+                <div className="status">
+                  <span>Experience</span>
+                </div>
               </div>
             </div>
-          </div>
+          </ReactWOW>
         </Grid>
 
         <Grid item xs={6} lg={3}>
-          <div className="containerSkillsInfo">
-            <div className="icon-div">
-              <CheckCircleIcon
-                color="secondary"
-                className="icon"
-                fontSize="large"
-              />
-            </div>
-            <div className="info">
-              <div className="title">
-                <h3>+111 Projects</h3>
+          <ReactWOW animation="flipInY">
+            <div className="containerSkillsInfo">
+              <div className="icon-div">
+                <CheckCircleIcon
+                  color="secondary"
+                  className="icon"
+                  fontSize="large"
+                />
               </div>
-              <div className="status">
-                <span>Completed</span>
+              <div className="info">
+                <div className="title">
+                  <h3>+111 Projects</h3>
+                </div>
+                <div className="status">
+                  <span>Completed</span>
+                </div>
               </div>
             </div>
-          </div>
+          </ReactWOW>
         </Grid>
 
         <Grid item xs={6} lg={3}>
-          <div className="containerSkillsInfo">
-            <div className="icon-div">
-              <AccountCircleIcon
-                color="secondary"
-                className="icon"
-                fontSize="large"
-              />
-            </div>
-            <div className="info">
-              <div className="title">
-                <h3>Freelance</h3>
+          <ReactWOW animation="flipInY">
+            <div className="containerSkillsInfo">
+              <div className="icon-div">
+                <AccountCircleIcon
+                  color="secondary"
+                  className="icon"
+                  fontSize="large"
+                />
               </div>
-              <div className="status">
-                <span>Available</span>
+              <div className="info">
+                <div className="title">
+                  <h3>Freelance</h3>
+                </div>
+                <div className="status">
+                  <span>Available</span>
+                </div>
               </div>
             </div>
-          </div>
+          </ReactWOW>
         </Grid>
         <Grid item xs={6} lg={3}>
-          <di className="cv-button">
-            <a>
-              <button> Download CV</button>
-            </a>
-          </di>
+          <ReactWOW animation="jello">
+            <div className="cv-button">
+              <a>
+                <button> Download CV</button>
+              </a>
+            </div>
+          </ReactWOW>
         </Grid>
       </Grid>
     </div>

@@ -5,49 +5,61 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import ReactWOW from "react-wow";
+import "../../animate.css";
 
 const SocialMediaComponenet = () => {
   const classes = useStyle();
   return (
     <div>
-      <a
-        className={classes.item}
-        href="https://www.facebook.com/profile.php?id=100013056635669"
-        target="_blank"
-      >
-        <FacebookIcon fontSize="middle" style={{ color: "#fff" }} />
-      </a>
+      <ReactWOW animation="rollIn">
+        <a
+          className={classes.item}
+          href="https://www.facebook.com/profile.php?id=100013056635669"
+          target="_blank"
+        >
+          <FacebookIcon fontSize="middle" style={{ color: "#fff" }} />
+        </a>
+      </ReactWOW>
 
-      <a
-        className={classes.item}
-        href="https://twitter.com/MoahmmadAhamd"
-        target="_blank"
-      >
-        <TwitterIcon fontSize="middle" style={{ color: "#fff" }} />
-      </a>
+      <ReactWOW animation="rollIn">
+        <a
+          className={classes.item}
+          href="https://twitter.com/MoahmmadAhamd"
+          target="_blank"
+        >
+          <TwitterIcon fontSize="middle" style={{ color: "#fff" }} />
+        </a>
+      </ReactWOW>
 
-      <a
-        className={classes.item}
-        href="https://github.com/Mohammaddx"
-        target="_blank"
-      >
-        <GitHubIcon fontSize="middle" style={{ color: "#fff" }} />
-      </a>
-      <a
-        className={classes.item}
-        href="https://www.linkedin.com/in/mohammad-ahmad-4b6a30175/"
-        target="_blank"
-      >
-        <LinkedInIcon fontSize="middle" style={{ color: "#fff" }} />
-      </a>
+      <ReactWOW animation="rollIn">
+        <a
+          className={classes.item}
+          href="https://github.com/Mohammaddx"
+          target="_blank"
+        >
+          <GitHubIcon fontSize="middle" style={{ color: "#fff" }} />
+        </a>
+      </ReactWOW>
+      <ReactWOW animation="rollIn">
+        <a
+          className={classes.item}
+          href="https://www.linkedin.com/in/mohammad-ahmad-4b6a30175/"
+          target="_blank"
+        >
+          <LinkedInIcon fontSize="middle" style={{ color: "#fff" }} />
+        </a>
+      </ReactWOW>
 
-      <a
-        className={classes.item}
-        href="https://www.instagram.com/mohammadahmad2871/"
-        target="_blank"
-      >
-        <InstagramIcon fontSize="middle" style={{ color: "#fff" }} />
-      </a>
+      <ReactWOW animation="rollIn">
+        <a
+          className={classes.item}
+          href="https://www.instagram.com/mohammadahmad2871/"
+          target="_blank"
+        >
+          <InstagramIcon fontSize="middle" style={{ color: "#fff" }} />
+        </a>
+      </ReactWOW>
     </div>
   );
 };

@@ -19,6 +19,7 @@
     "react-scripts": "3.3.0",
     "react-snow-effect": "^1.2.0",
     "react-vanilla-tilt": "^1.0.0",
+    "react-wow": "^1.0.0",
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
