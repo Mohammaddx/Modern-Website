@@ -14,7 +14,7 @@ const HommeInfoComponent = () => {
         <h1 className={classes.h1}>Mohammad Ahmad</h1>
       </ReactWOW>
       <ReactWOW animation="fadeInUp">
-        <h2 className={classes.Typography}>Full stack Developer</h2>
+        <h2 className={classes.Typography}>Full Stack Developer</h2>
       </ReactWOW>
     </div>
   );
