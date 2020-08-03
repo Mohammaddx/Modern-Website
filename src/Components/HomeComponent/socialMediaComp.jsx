@@ -35,7 +35,7 @@ const SocialMediaComponenet = () => {
       <ReactWOW animation="rollIn">
         <a
           className={classes.item}
-          href="https://github.com/Mohammaddx"
+          href="https://github.com/mohammad-dc"
           target="_blank"
         >
           <GitHubIcon fontSize="middle" style={{ color: "#fff" }} />
@@ -54,7 +54,7 @@ const SocialMediaComponenet = () => {
       <ReactWOW animation="rollIn">
         <a
           className={classes.item}
-          href="https://www.instagram.com/mohammadahmad2871/"
+          href="https://www.instagram.com/python_now/"
           target="_blank"
         >
           <InstagramIcon fontSize="middle" style={{ color: "#fff" }} />
@@ -65,42 +65,3 @@ const SocialMediaComponenet = () => {
 };
 
 export default SocialMediaComponenet;
-/*
-<div style={{ border: "1px solid #fff" }}>
-      <ul className={classes.list} style={{ border: "1px solid #fff" }}>
-        <li className={classes.item} style={{ border: "1px solid #fff" }}>
-          <a
-            href="https://www.facebook.com/profile.php?id=100013056635669"
-            target="_blank"
-          >
-            <FacebookIcon fontSize="large" style={{ color: "#fff" }} />
-          </a>
-        </li>
-        <li className={classes.item}>
-          <a href="https://twitter.com/MoahmmadAhamd" target="_blank">
-            <TwitterIcon fontSize="large" style={{ color: "#fff" }} />
-          </a>
-        </li>
-        <li className={classes.item}>
-          <a href="https://github.com/Mohammaddx" target="_blank">
-            <GitHubIcon fontSize="large" style={{ color: "#fff" }} />
-          </a>
-        </li>
-        <li className={classes.item}>
-          <a
-            href="https://www.linkedin.com/in/mohammad-ahmad-4b6a30175/"
-            target="_blank"
-          >
-            <LinkedInIcon fontSize="large" style={{ color: "#fff" }} />
-          </a>
-        </li>
-        <li className={classes.item}>
-          <a
-            href="https://www.instagram.com/mohammadahmad2871/"
-            target="_blank"
-          >
-            <InstagramIcon fontSize="large" style={{ color: "#fff" }} />
-          </a>
-        </li>
-      </ul>
-    </div> */
