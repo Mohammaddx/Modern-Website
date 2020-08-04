@@ -7,9 +7,9 @@ const PortfolioInfoComponent = ({ image, title, link }) => {
     <ReactWOW animation="jackInTheBox">
       <div className="portfolio-div">
         <div className="container">
-          <img src={image} />
+          <img src={image} alt="project"/>
           <h2>{title}</h2>
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noopener noreferrer">
             <span>Check Link!</span>
           </a>
         </div>

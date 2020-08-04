@@ -14,7 +14,7 @@ const ContactComponent = () => {
       <div className="container">
         <ReactWOW animation="bounceIn">
           <div className="img-div">
-            <img src={Image} />
+            <img src={Image} alt="contact "/>
           </div>
         </ReactWOW>
         <div className="info-contact">

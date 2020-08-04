@@ -9,7 +9,7 @@ const ImageComponent = () => {
     <div className="root">
       <ReactWOW animation="flip">
         <span className="span-rolling"></span>
-        <img src={Image} className="image-about" />
+        <img src={Image} className="image-about" alt="mohammad"/>
       </ReactWOW>
     </div>
   );

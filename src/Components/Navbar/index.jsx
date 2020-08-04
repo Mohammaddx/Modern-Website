@@ -70,7 +70,7 @@ export default function TemporaryDrawer() {
       <div className={classes.navLeftSide}>
         <div>
           {" "}
-          <img className={classes.navImg} src={Logo} />
+          <img className={classes.navImg} src={Logo} alt="logo"/>
         </div>
         <div>
           <h3 className={classes.navHeading}>Mohammad QB</h3>

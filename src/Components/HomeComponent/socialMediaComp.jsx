@@ -17,6 +17,7 @@ const SocialMediaComponenet = () => {
           className={classes.item}
           href="https://www.facebook.com/profile.php?id=100013056635669"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FacebookIcon fontSize="middle" style={{ color: "#fff" }} />
         </a>
@@ -27,6 +28,7 @@ const SocialMediaComponenet = () => {
           className={classes.item}
           href="https://twitter.com/MoahmmadAhamd"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <TwitterIcon fontSize="middle" style={{ color: "#fff" }} />
         </a>
@@ -37,6 +39,7 @@ const SocialMediaComponenet = () => {
           className={classes.item}
           href="https://github.com/mohammad-dc"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <GitHubIcon fontSize="middle" style={{ color: "#fff" }} />
         </a>
@@ -46,6 +49,7 @@ const SocialMediaComponenet = () => {
           className={classes.item}
           href="https://www.linkedin.com/in/mohammad-ahmad-4b6a30175/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <LinkedInIcon fontSize="middle" style={{ color: "#fff" }} />
         </a>
@@ -56,6 +60,7 @@ const SocialMediaComponenet = () => {
           className={classes.item}
           href="https://www.instagram.com/python_now/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <InstagramIcon fontSize="middle" style={{ color: "#fff" }} />
         </a>

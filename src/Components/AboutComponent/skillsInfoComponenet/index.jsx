@@ -75,9 +75,9 @@ const SkillsInfoComponent = () => {
         <Grid item xs={6} lg={3}>
           <ReactWOW animation="jello">
             <div className="cv-button">
-              <a>
+              
                 <button> Download CV</button>
-              </a>
+              
             </div>
           </ReactWOW>
         </Grid>

@@ -1,7 +1,4 @@
 import React from "react";
-import SocialMediaComponenet from "./socialMediaComp";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
 import ReactWOW from "react-wow";
 import "../../animate.css";
 import { useStyle } from "./style.jsx";
