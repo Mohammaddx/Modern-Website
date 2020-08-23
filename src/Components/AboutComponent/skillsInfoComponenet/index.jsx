@@ -76,7 +76,7 @@ const SkillsInfoComponent = () => {
           <ReactWOW animation="jello">
             <div className="cv-button">
               <a
-                href="./MohammadCVTull.pdf"
+                href="https://drive.google.com/file/d/1MiFcYgreRlF_xyNJR70QZTfI4LQAuGS7/view"
                 download
               >
                 <button>Download CV</button>
