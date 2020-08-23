@@ -77,7 +77,7 @@ const SkillsInfoComponent = () => {
             <div className="cv-button">
               <a
                 href="./MohammadCVTull.pdf"
-                download
+                download="./MohammadCVTull.pdf"
               >
                 <button>Download CV</button>
               </a>
